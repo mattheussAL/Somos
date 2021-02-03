@@ -1,5 +1,6 @@
 import React from 'react';
-// 
+import { Link } from 'react-router-dom';
+
 import { Nav, ContentNav, MenuIconNav, Title } from './styles';
 
 const Navbar: React.FC = () => {
@@ -8,7 +9,10 @@ const Navbar: React.FC = () => {
       <Nav>
         <ContentNav>
           <MenuIconNav />
-          <Title>SOMOS</Title>
+
+          <Link to="/" style={{textDecoration: 'none'}}>
+            <Title>SOMOS</Title>
+          </Link>
         </ContentNav>
       </Nav>
     </>

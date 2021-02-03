@@ -45,8 +45,10 @@ export const Title = styled.h1`
   font-style: normal;
 
   margin: 6px;
+  color: #FFFFFF;
 
   line-height: 24px;
+  text-decoration: none;
 
   @media (max-width: 800px) {
     font-size: 1.2rem;

@@ -44,11 +44,12 @@ const Results: React.FC = () => {
 
                       <div className="info">
                         <p>
-                          <span className="questoes">{item.data.answeredItems}</span>
-                        /
-                        {item.data.itemsTotal}
+                          <span className="questoes">
+                            {item.data.answeredItems}
+                          </span> /
+                          {item.data.itemsTotal}
                         </p>
-                        <span></span>
+                        <span>80%</span>
                       </div>
                     </div>
                   </Percent>

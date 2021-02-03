@@ -1,9 +1,11 @@
 import React from 'react';
 import db from '../../../data/db.json';
 // import { Event } from '../../../types';
+import { Link } from 'react-router-dom';
 
 import { 
   Date,
+  Next,
   Infos,
   Progress,
   Evidences,
@@ -11,11 +13,12 @@ import {
   CurrentProgress,
   ContentDashboard,
   EvidencesInProgress,
+  
 } from '../styles';
 
 import WatchLaterIcon from '@material-ui/icons/WatchLater';
 import ViewModuleIcon from '@material-ui/icons/ViewModule';
-
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
 const InProgress: React.FC = () => {
   const exam = db.proofs[0].exam;
@@ -32,7 +35,9 @@ const InProgress: React.FC = () => {
                   <p>{item.name}</p>
                 </TypeEvidence>
 
-                <h2>{item.description}</h2>
+                <Link to="https://somos.mattheussal.vercel.app/proof">
+                  <h2>{item.description}</h2>
+                </Link>
 
                 <Progress>
                   <CurrentProgress />
@@ -56,6 +61,10 @@ const InProgress: React.FC = () => {
             )
           })}
         </Evidences>
+      
+        <Next>
+          <ArrowForwardIosIcon />
+        </Next>
       </ContentDashboard>
     </>
   );

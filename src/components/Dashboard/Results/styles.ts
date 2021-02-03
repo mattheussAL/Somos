@@ -187,17 +187,6 @@ export const Calc = styled.div`
   }
 `;
 
-// export const BarProgress = styled.div`
-//   position: relative;
-//   width: 100%;
-//   height: 100%;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   flex-direction: column;
-//   background: red;
-// `;
-
 export const Percent = styled.div`
   position: absolute;
 
@@ -210,7 +199,6 @@ export const Percent = styled.div`
     fill: none;
     stroke-width: 5px;
   }
-
   
   [class^="meter-"] {
     fill: none;
@@ -268,6 +256,17 @@ export const Percent = styled.div`
       font-size: 22px;
       color: #166941;
     }
-  }
 
+    span {
+      position: absolute;
+
+      font-size: 14px;
+      font-weight: bold;
+
+      top: 20px;
+      left: -10px;
+
+      color: #000000;
+    }    
+  }
 `;

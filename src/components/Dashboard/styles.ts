@@ -86,6 +86,38 @@ export const ContentDashboard = styled.div`
   }
 `;
 
+export const Next = styled.div`
+  position: absolute;
+
+  right: 0;
+
+  width: 120px;
+  height: 100%;
+
+  color: #CCCCCC;
+  border-radius: 0 2px 2px 0;
+  background: transparent;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    background: rgba(0, 0, 0, .2);
+    color: #FFFFFF;
+  }
+
+  @media (max-width: 500px) {
+    top: 54.82px;
+    
+    width: 65px;
+    height: 63%;
+  }
+`;
+
 export const Evidences = styled.div`
   position: absolute;
 
@@ -113,7 +145,13 @@ export const EvidencesInProgress = styled.div`
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
 
   transform: scale(1);
-  transition: all 1s ease;
+  transition: all .5s ease;
+
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 
   @media (max-width: 500px) {
     left: 1.4%;
