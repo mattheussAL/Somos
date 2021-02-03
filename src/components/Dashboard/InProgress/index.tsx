@@ -35,7 +35,7 @@ const InProgress: React.FC = () => {
                   <p>{item.name}</p>
                 </TypeEvidence>
 
-                <Link to="https://somos.mattheussal.vercel.app/proof">
+                <Link to="/proof">
                   <h2>{item.description}</h2>
                 </Link>
 
