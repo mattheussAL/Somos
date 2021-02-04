@@ -1,21 +1,21 @@
 <h1 align="center">
-  <a href="https://somos.mattheussal.vercel.app" target="_blank">SOMOS </a>| Teste Front-end Developer 
+  :heavy_check_mark: <a href="https://somos.mattheussal.vercel.app" target="_blank">SOMOS </a>| Teste Front-end Developer 
 </h1>
 
 <img src="https://github.com/mattheussAL/Somos/blob/main/.github/dashboard.PNG" width="1000" height="500" />
 <img src="https://github.com/mattheussAL/Somos/blob/main/.github/Proof.PNG" width="1000" height="500" />
 
-## About
+## :mag_right: About
 
 This project was built for the Junior Developer test by <a src="https://meritt.com.br"><img src="https://meritt.com.br/img/logo_meritt_preto_40h.8c7deff1.png" target="_blank" width="80"/></a> 
 
-## What I've learned
+## :gem: What I've learned
 
 It aims to bring an educational platform for conducting tests. Students and teachers could have, in a simple, pleasant and easy to understand way, all the necessary information about the evaluation, both before, during and after each test has been carried out.
 typescript: types and interfaces that are some of its main peculiarities. I know that I still have a lot to improve with this new supertype language that I started to study, and that makes me very willing to evolve and overcome each new challenge I saw with it.
 
 
-## How Staring
+## :bulb: How Staring
 
 <div>
   
