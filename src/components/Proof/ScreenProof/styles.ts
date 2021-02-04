@@ -296,7 +296,7 @@ export const Questions = styled.div`
         @media (max-width: 600px) { width: 30px;}
 
         p {
-          height: 22px;
+          padding: 22px;
         }
       }
 
