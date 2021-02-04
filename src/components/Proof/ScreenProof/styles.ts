@@ -264,10 +264,13 @@ export const Questions = styled.div`
       display: flex;
       align-items: center;
 
-      span { margin-right: 8px }
+      height: 22px;
+
       transform: scale(1);
       margin-bottom: 20px;
-      transition: all .5s ease;
+      transition: all 1s ease-out;
+
+      span { margin-right: 8px }
 
       @media (max-width: 820px) { margin-bottom: 24px }
       @media (max-width: 690px) { margin-bottom: 28px }
@@ -286,6 +289,15 @@ export const Questions = styled.div`
         box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 
         transform: scale(1.1);
+        transition: all 1s ease-out;
+
+        @media (max-width: 820px) { margin-bottom: 24px }
+        @media (max-width: 690px) { margin-bottom: 28px }
+        @media (max-width: 600px) { width: 30px;}
+
+        p {
+          height: 22px;
+        }
       }
 
       p {
