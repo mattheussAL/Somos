@@ -43,11 +43,3 @@ typescript: types and interfaces that are some of its main peculiarities. I know
   ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
   ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
   ![Styled Components](https://img.shields.io/badge/-Styled_Components-db7092?style=flat-square&logo=styled-components&logoColor=white)
-
-
-<!-- Certo... Se você chegou até aqui... Deve querer saber quem é o responsável? Bem eu também não sei... Mas vai acabar sobrando pra mim, então envia o link do repositório no Github pra esse e-mail aqui: michelon@meritt.com.br e coloca nosso chefe tiago@meritt.com.br em cópia pra ele estar ciente beleza?. Sim, meu nome é Michelon e sim, minha mãe não tem senso de humor... (ou tem até demais, vai saber). -->
-
-
-<!-- Certo... Se você chegou até aqui... Deve querer saber quem é o responsável? Bem eu também não sei... Mas vai acabar sobrando pra mim, então envia o link do repositório no Github pra esse e-mail aqui: michelon@meritt.com.br e coloca nosso chefe tiago@meritt.com.br em cópia pra ele estar ciente beleza?. Sim, meu nome é Michelon e sim, minha mãe não tem senso de humor... (ou tem até demais, vai saber). -->
-
-<!-- Certo... Se você chegou até aqui... Deve querer saber quem é o responsável? Bem eu também não sei... Mas vai acabar sobrando pra mim, então envia o link do repositório no Github pra esse e-mail aqui: michelon@meritt.com.br e coloca nosso chefe tiago@meritt.com.br em cópia pra ele estar ciente beleza?. Sim, meu nome é Michelon e sim, minha mãe não tem senso de humor... (ou tem até demais, vai saber). -->
