@@ -45,6 +45,15 @@ export const ContentNav = styled.div`
     height: 28px;
 
     color: #757575;
+
+    @media (max-width: 879px) {
+      width: 260px;
+    }
+
+    @media (max-width: 790px) {
+      width: 260px;
+      top: -15px;
+    }
   }
 
   .infos {
@@ -95,9 +104,26 @@ export const Send = styled.button`
   display: flex;
   align-items: center;
 
+  @media (max-width: 550px) {
+    padding: 0;
+    background: none;
+    border: none;
+    margin-right: -48px
+  }
+
+  p {
+    @media (max-width: 550px) { visibility: hidden }
+  }
+
   i { 
     font-size: 20px;
     margin-left: 12px;
+
+    @media (max-width: 550px) { margin-left: -37px }
+
+    svg {
+      @media (max-width: 550px) { font-size: 2.3rem }
+    }
   }
 
   cursor: pointer;
@@ -109,7 +135,33 @@ export const Send = styled.button`
     background: #FA558F;
     border: none;
     box-shadow: 0 0 2.5px #FA558F99;
+
+    @media (max-width: 550px) {
+      background: none;
+      box-shadow: none;
+    }
   }
+
+  @media (max-width: 1121px) {
+    margin-right: 20px;
+  }
+
+  @media (max-width: 940px) {
+    width: 141px;
+    height: 45px;
+  }
+
+  @media (max-width: 820px) {
+    margin-right: 50px;
+  }
+
+  /* @media (max-width: 600px) {
+    border: none;
+  } */
+
+  
+
+
 `;
 
 export const Progress = styled.div`
@@ -149,5 +201,7 @@ export const CurrentProgress = styled.div`
     50%  { width: 40vw };
     100% { width: 60vw };
   }
+
+  
 `;
 

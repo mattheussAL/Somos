@@ -7,11 +7,38 @@ export const Screen = styled.div`
   height: 795px;
 
   top: 182px;
-  left: calc(50% - 1132px/2);
+  left: 110px;
   margin-bottom: 120px;
 
   background: #FFFFFF;
   border-radius: 3px;
+
+  transition: all .5s ease;
+
+  @media (max-width: 1121px) { 
+    width: 900px;
+    left: 90px;
+  }
+
+  @media (max-width: 1000px) {
+    width: 700px;
+    left: 70px;
+  }
+
+  @media (max-width: 820px) {
+    width: 600px;
+    left: 60px;
+  }
+
+  @media (max-width: 690px) {
+    width: 518px;
+    left: 70px;
+  }
+
+  @media (max-width: 600px) {
+    width: 417px;
+    left: 70px;
+  }
 
   .book {
     position: absolute;
@@ -52,7 +79,7 @@ export const Revision = styled.button`
   position: absolute;
 
   top: 16px;
-  left: 457px;
+  left: 445px;
 
   width: 285px;
   height: 44px;
@@ -67,6 +94,23 @@ export const Revision = styled.button`
   justify-content: center;
 
   cursor: pointer;
+
+  @media (max-width: 1121px) {
+    left: 325px;
+  }
+
+  @media (max-width: 1000px) {
+    left: 200px;
+  }
+ 
+  @media (max-width: 690px) {
+    margin-left: -78px;
+  }
+
+  @media (max-width: 600px){
+    margin-left: -116px;
+    width: 251px;
+  }
 
   i {
     .close {
@@ -102,7 +146,33 @@ export const Image = styled.img`
   width: 556px;
   height: 320px;
 
-  transform: scale(1);
+  @media (max-width: 1121px) {
+    left: 21%;
+    width: 556px;
+    height: 312px;
+  }
+
+  @media (max-width: 1000px) {
+    top: 80px;
+    left: 15.83%;
+    width: 488px;
+    height: 242px;
+  }
+
+  @media (max-width: 820px) {
+    width: 419px;
+    height: 232px;
+  }
+
+  @media (max-width: 690px) {
+    width: 361px;
+    height: 203px;
+  }
+
+  @media (max-width: 600px) {
+    width: 288px;
+    height: 184px;
+  }
 `;
 
 export const Question = styled.div`
@@ -113,6 +183,34 @@ export const Question = styled.div`
   bottom: 39.23%;
   left: 26.83%;
 
+  @media (max-width: 1121px) {
+    top: 53.5%;
+    right: 26.83%;
+    bottom: 0;
+    left: 23.83%;
+    width: 520px;
+  }
+
+  @media (max-width: 1000px) {
+    top: 43.5%;
+    left: 15.83%;
+  }
+
+  @media (max-width: 820px) {
+    top: 41%;
+    width: 383px;
+  }
+
+  @media (max-width: 690px) {
+    top: 37%;
+    left: 14%;
+  }
+
+  @media (max-width: 600px) {
+    top: 34%;
+    left: 9%;
+  }
+
   p {
     font-style: normal;
     font-weight: 300;
@@ -120,6 +218,10 @@ export const Question = styled.div`
     line-height: 18px;
 
     color: #000000;
+
+    @media (max-width: 600px) {
+      font-size: 13px;
+    }
   }
 `;
 
@@ -129,6 +231,32 @@ export const Questions = styled.div`
     top: 60.5%;
     left: 26.83%;
     width: 600px;
+
+    @media (max-width: 1100px) {
+      top: 60.5%;
+      left: 21.83%;
+    }
+
+    @media (max-width: 1000px) {
+      top: 49.5%;
+      left: 10.83%;
+    }
+
+    @media (max-width: 820px) {
+      top: 47.5%;
+      left: 9.83%;
+      width: 496px;
+    }
+
+    @media (max-width: 690px) {
+      top: 43.5%;
+      width: 395px;
+    }
+
+    @media (max-width: 600px) {
+      top: 40.5%;
+      width: 313px;
+    }
 
     li {
       list-style: none;
@@ -141,9 +269,13 @@ export const Questions = styled.div`
       margin-bottom: 20px;
       transition: all .5s ease;
 
+      @media (max-width: 820px) { margin-bottom: 24px }
+      @media (max-width: 690px) { margin-bottom: 28px }
+      @media (max-width: 600px) { margin-bottom: 32px }
+
       /* active */
 
-      &.active {
+      &:hover {
         width: 555px;
         height: 54px;
         padding: 12px 10px;
@@ -153,9 +285,7 @@ export const Questions = styled.div`
         border-radius: 2px;
         box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 
-        &:hover {
-          transform: scale(1.1);
-        }
+        transform: scale(1.1);
       }
 
       p {
@@ -169,6 +299,14 @@ export const Questions = styled.div`
         margin-left: 12px;        
 
         color: #000000;
+
+        &:hover {
+          margin-bottom: 14px;
+        }
+
+        @media (max-width: 600px) {
+          font-size: 13px;
+        }
       }
 
       i {

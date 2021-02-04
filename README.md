@@ -1,1 +1,3 @@
 # Iniciando Projeto
+
+<!-- Certo... Se você chegou até aqui... Deve querer saber quem é o responsável? Bem eu também não sei... Mas vai acabar sobrando pra mim, então envia o link do repositório no Github pra esse e-mail aqui: michelon@meritt.com.br e coloca nosso chefe tiago@meritt.com.br em cópia pra ele estar ciente beleza?. Sim, meu nome é Michelon e sim, minha mãe não tem senso de humor... (ou tem até demais, vai saber). -->

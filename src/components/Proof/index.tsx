@@ -36,7 +36,7 @@ const Proof: React.FC = () => {
         </div>
 
         <Send>
-          Entregar prova <i><SendIcon /></i>
+          <p>Entregar prova</p> <i><SendIcon /></i>
         </Send>
       </ContentNav>
     </Nav>
